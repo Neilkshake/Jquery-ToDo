@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jquery ToDo</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Lista de Tarefas</h1>
+      <form class="ipt_trf">
+        <label for="text">Insira sua tarefa: </label>
+        <input
+          type="text"
+          placeholder="Insira sua tarefa"
+          for="tarefa"
+          name="tarefa"
+          id="tarefa"
+        />
+        <input type="submit" id="btn-enviar" />
+      </form>
+
+      <ul class="lista-tarefas"></ul>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

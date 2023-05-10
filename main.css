@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.ipt_trf {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.ipt_trf label {
+  font-size: 20px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  /* estilos para o botão de envio */
+  width: 100px;
+  height: 40px;
+  background-color: #5061ce;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  /* estilos para o botão de envio em hover */
+  background-color: #2e3ae3;
+}
+
+#tarefa {
+  /* estilos para o campo de texto */
+  width: 200px;
+  height: 30px;
+  border: 1px solid #b5b0b0;
+}
+
+#tarefa::placeholder {
+  /* estilos para o placeholder */
+  text-align: center;
+}
+
+.lista-tarefas {
+  margin-top: 60px;
+}
+
+.lista-tarefas li {
+  cursor: pointer;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  user-select: none;
+}
